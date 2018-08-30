@@ -29,18 +29,18 @@ img.flex-nav {
     border: 2px solid #eeeeee;
 }
 
-.site-nav {
+nav ul {
     display: flex;
-    padding: .5em;
+    justify-content: flex-start;
     background-color: #5f4b44;
-    border-radius: .2em;
+    padding: 0px;
 }
-
-.site-nav > li {
-    margin-top: 0;
+nav ul li {
+    background: #c66a57
+    margin: 10px;
+    padding: 10px;
 }
-
-.site-nav > li > a {
+nav ul li  a {
     display: block;
     background-color: #cc6b5a
     color: white;
